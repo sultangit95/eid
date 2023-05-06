@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  background: url("../images/bg2.jpg") no-repeat top / cover;
+  height: 100vh;
+}
+.text{
+  width: 58%;
+  height: 100%;
+  margin-left: 40%;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+h1{
+  color: goldenrod;
+  font-family: 'Noto Sans Bengali', sans-serif;
+  font-size: 46px;
+  line-height: 70px;
+  text-shadow: 5px 5px 20px #000;
+  padding: 30px;
+  box-shadow: 0px 0px 20px goldenrod;
+  border-radius: 10px;
+}
